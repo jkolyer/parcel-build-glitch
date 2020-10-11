@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "lib": ["dom","dom.iterable","esnext"],
+    "allowJs": true,
+    "target": "es5",
+    "esModuleInterop": true,
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "types": ["node", "jest"],
+    "experimentalDecorators": true
+  }
+}
