@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "yarn:set:version": "yarn set version berry",
+    "yarn:set:version": "yarn set version berry && yarn install",
     "start": "parcel ./dist/index.html",
     "start:open": "parcel ./dist/index.html --open",
     "clean": "rimraf ./dist",
